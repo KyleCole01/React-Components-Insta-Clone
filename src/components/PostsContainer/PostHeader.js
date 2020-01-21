@@ -11,6 +11,7 @@ const PostHeader = props => {
           alt="post header"
           className="post-thumb"
           src={props.thumbnailUrl}
+          
         />
       </div>
       <h2>{props.username}</h2>
